@@ -1,0 +1,51 @@
+// -----------------------------------------------------------------------------
+// Aqui van variables de tipo list para fuentes, color y lenght para medidas en px etc.
+// -----------------------------------------------------------------------------
+
+//----------------------------------FUENTES------------------------------------------
+///Una lista de fuentes normales
+/// @type List
+$fuentes-normales: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Roboto', sans-serif !default;
+//
+///Una lista de fuentes Para titulos
+///@type List
+$fuentes-titulos: 'Roboto', 'Century Gothic', 'Verdana', 'Geneva', 'Tahoma', 'Bookman Old Style', sans-serif !default;
+//-------------------------------------------------------------------------------------
+
+//---------------------------------COLORES--------------------------------------------
+/// --azul de ernesto
+/// @type Color
+$azul:#1498D5 !default;
+
+/// --gris de ernesto
+/// @type Color
+$gris: #d6e4f0 !default;
+
+/// --blanco de ernesto
+/// @type Color
+$blanco: #fffcca !default;
+
+/// --text1 de ernesto
+/// @type Color
+$text1:   #212121 !default;
+
+/// morado de leo
+/// @type Color
+$morado:   #a222d4 !default;
+
+/// rosa de leo
+/// @type Color
+$rosa:   #e4146a !default;
+
+/// cobalto de leo
+/// @type Color
+$cobalto:   #137074 !default;
+
+
+//--------------------------Medidas----------------------------------
+/// para contenedor
+/// @type Length
+$ancho: 100% !default;
+/// @type Length
+$alto: 100% !default;
+

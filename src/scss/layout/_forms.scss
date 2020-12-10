@@ -1,0 +1,126 @@
+// -----------------------------------------------------------------------------
+// Estilos para formularios
+// -----------------------------------------------------------------------------
+/*------------------leo----------------*/
+.contenedor{
+.padre{
+    .hijo{
+        .form-flex{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            /* background-color: firebrick;
+            border-radius: 10px; */
+            form{
+                display: flex;
+                flex-wrap: wrap;
+                .form-box{
+                    height: fit-content;
+                    width: fit-content;
+                    margin-top: 15px;
+                    margin-left: 15px;
+                    padding: 10px;
+                    color: $cobalto;
+                    /* background-color: peru; */
+                    .form-label{
+                        font-family: $fuentes-normales;
+                        font-size: large;
+                        font-weight: bold;
+                    }
+                    .form-input{
+                        font-family: $fuentes-normales;
+                        color: $text1;
+                        border: none;
+                        border-bottom: 2px solid $cobalto;
+                        background-color: $gris;
+                        padding: 12px 20px;
+                        margin-top: 10px;
+                        box-sizing: border-box;
+                        
+                    }
+                    .inp-llenado{
+                        background-color: #fff;
+                        cursor: pointer;
+                    }
+                    .inp-llenado:focus{
+                        border: 3px solid $blanco;
+                    }
+                    .form-text-area{
+                        font-family: $fuentes-normales;
+                        color: $text1;
+                        border: none;
+                        background-color: $gris;
+                        float: left;
+                        width: 100%;
+                        min-height: 75px;
+                        outline: none;
+                        resize: none;
+                    }
+                }
+            }
+        }//fin form flex
+        /* .col-form-2{
+
+        } */
+        .form-block{
+            display: block;
+            /* background-color: firebrick;
+            border-radius: 10px; */
+            form{
+                .form-box{
+                    height: fit-content;
+                    width: fit-content;
+                    margin-top: 15px;
+                    margin-left: 15px;
+                    padding: 10px;
+                    border-radius: 10px;///////////////////////////////
+                    color: $cobalto;
+                    /* background-color: peru; */
+                    .form-label{
+                        font-family: $fuentes-normales;
+                        font-size: large;
+                        font-weight: bold;
+                    }
+                    .form-input{
+                        font-family: $fuentes-normales;
+                        color: $text1;
+                        border: none;
+                        border-bottom: 2px solid $cobalto;
+                        background-color: $gris;
+                        padding: 12px 20px;
+                        margin-top: 10px;
+                        box-sizing: border-box;
+                    }
+                    .inp-llenado{
+                        background-color: #fff;
+                        cursor: pointer;
+                    }
+                    .inp-llenado:focus{
+                        border: 3px solid $blanco;
+                    }
+                    .form-text-area{
+                        font-family: $fuentes-normales;
+                        color: $text1;
+                        border: none;
+                        background-color: $gris;
+                        float: left;
+                        width: 100%;
+                        min-height: 75px;
+                        outline: none;
+                        resize: none;
+                    }
+                }
+            }
+        }
+    }
+}
+}
+
+
+
+
+
+
+
+/*------------------fin leo----------------*/
+

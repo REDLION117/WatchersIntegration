@@ -1,0 +1,42 @@
+// -----------------------------------------------------------------------------
+// Como parte de la carpeta de abstract tambien llamada utilities
+// los mixins son como metodos que aplican estilos que consideres reusables.
+// -----------------------------------------------------------------------------
+
+//-----------------------------
+// EJEMPLO PARA LLAMAR UN MIXIN
+// .boton{
+//      @include nombreMixin(640px);
+// }
+//-----------------------------
+
+//-----------------------------
+//       EJEMPLO DE MIXIN
+// @mixin nombreMixin($ancho) {
+//      display: inline-block;
+//      text-decoration: none;
+//      padding: .5em 1em;
+//      min-width: $ancho;
+//
+//      &:hover {
+//        background: red;
+//      }
+// }//fin del mixin
+//-----------------------------
+
+///mixin necesario para trabajr agusto
+@mixin primero-lo-primero{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+///mixin que pone sombra
+@mixin echale-sombra($horizontal, $vertical, $suavidad, $color){
+    box-shadow: $horizontal $vertical $suavidad $color;
+}
+
+
+

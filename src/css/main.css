@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.contenedor {
+  width: 100%;
+  height: 100%; }
+
+h1 {
+  font-family: "Roboto", "Century Gothic", "Verdana", "Geneva", "Tahoma", "Bookman Old Style", sans-serif;
+  color: #a222d4; }
+
+h2 {
+  font-family: "Roboto", "Century Gothic", "Verdana", "Geneva", "Tahoma", "Bookman Old Style", sans-serif;
+  color: #e4146a; }
+
+/**************Encabezado logo y user****************/
+.contenedor .encabezado {
+  display: flex;
+  background-color: #d6e4f0;
+  width: 100%;
+  height: 25%; }
+  .contenedor .encabezado .logo {
+    width: 25%;
+    height: 100%; }
+    .contenedor .encabezado .logo .img {
+      position: relative;
+      left: 5%;
+      top: 10%; }
+  .contenedor .encabezado .info_usuario {
+    display: inline-block;
+    width: 25%;
+    height: 100%; }
+    .contenedor .encabezado .info_usuario p {
+      position: relative;
+      left: 10%;
+      top: 25%;
+      width: 70%;
+      font-family: 'arial';
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #1498D5; }
+    .contenedor .encabezado .info_usuario .user_name {
+      width: 100%;
+      height: 50%; }
+    .contenedor .encabezado .info_usuario .user_id {
+      width: 100%;
+      height: 50%; }
+
+/***************menu1*****************/
+.contenedor .encabezado .menu1 {
+  width: 50%;
+  height: 100%; }
+  .contenedor .encabezado .menu1 nav {
+    position: relative;
+    display: inline-flex;
+    left: 40%;
+    top: 50%;
+    width: 60%;
+    height: 50%; }
+    .contenedor .encabezado .menu1 nav li {
+      list-style: none;
+      position: relative;
+      left: 10%;
+      top: 30%;
+      height: 60%;
+      margin: 0 5% 0 5%; }
+      .contenedor .encabezado .menu1 nav li a {
+        display: inline-block;
+        text-decoration: none;
+        font-family: 'arial';
+        font-size: 1.2rem;
+        color: #1498D5;
+        font-weight: bold; }
+
+/*******************CUERPO********************/
+.contenedor .cuerpo {
+  display: block;
+  width: 100%;
+  height: 75%;
+  overflow: scroll; }
+  .contenedor .cuerpo table {
+    border-collapse: collapse;
+    font-family: Arial;
+    font-size: 1.2rem;
+    position: relative;
+    left: 5%;
+    top: 5%;
+    width: 90%;
+    height: auto; }
+    .contenedor .cuerpo table .principal {
+      background-color: #1498D5;
+      height: 10%;
+      color: #d6e4f0; }
+      .contenedor .cuerpo table .principal .rep {
+        width: 10%; }
+      .contenedor .cuerpo table .principal .fec {
+        width: 15%; }
+      .contenedor .cuerpo table .principal .tip {
+        width: 10%; }
+      .contenedor .cuerpo table .principal .des {
+        width: 50%; }
+      .contenedor .cuerpo table .principal .est {
+        width: 15%; }
+    .contenedor .cuerpo table .principal:hover {
+      background-color: #1498D5; }
+    .contenedor .cuerpo table .sobrante {
+      height: 10%;
+      text-align: center; }
+    .contenedor .cuerpo table .sobrante:hover {
+      background-color: #d6e4f0; }
+
+/*LEO*/
+.padre {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .padre .hijo {
+    margin: 30px;
+    padding-bottom: 30px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    background-color: #d6e4f0;
+    box-shadow: 10px 10px 40px rgba(117, 117, 117, 0.664); }
+    .padre .hijo .title {
+      margin-top: 10px;
+      font-family: "Roboto", "Century Gothic", "Verdana", "Geneva", "Tahoma", "Bookman Old Style", sans-serif;
+      color: #137074;
+      text-align: center; }
+    .padre .hijo .center {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+
+/*fin LEO*/
+/*------------------leo----------------*/
+.contenedor .padre .hijo {
+  /* .col-form-2{
+
+        } */ }
+  .contenedor .padre .hijo .form-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background-color: firebrick;
+            border-radius: 10px; */ }
+    .contenedor .padre .hijo .form-flex form {
+      display: flex;
+      flex-wrap: wrap; }
+      .contenedor .padre .hijo .form-flex form .form-box {
+        height: fit-content;
+        width: fit-content;
+        margin-top: 15px;
+        margin-left: 15px;
+        padding: 10px;
+        color: #137074;
+        /* background-color: peru; */ }
+        .contenedor .padre .hijo .form-flex form .form-box .form-label {
+          font-family: "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Roboto", sans-serif;
+          font-size: large;
+          font-weight: bold; }
+        .contenedor .padre .hijo .form-flex form .form-box .form-input {
+          font-family: "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Roboto", sans-serif;
+          color: #212121;
+          border: none;
+          border-bottom: 2px solid #137074;
+          background-color: #d6e4f0;
+          padding: 12px 20px;
+          margin-top: 10px;
+          box-sizing: border-box; }
+        .contenedor .padre .hijo .form-flex form .form-box .inp-llenado {
+          background-color: #fff;
+          cursor: pointer; }
+        .contenedor .padre .hijo .form-flex form .form-box .inp-llenado:focus {
+          border: 3px solid #fffcca; }
+        .contenedor .padre .hijo .form-flex form .form-box .form-text-area {
+          font-family: "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Roboto", sans-serif;
+          color: #212121;
+          border: none;
+          background-color: #d6e4f0;
+          float: left;
+          width: 100%;
+          min-height: 75px;
+          outline: none;
+          resize: none; }
+  .contenedor .padre .hijo .form-block {
+    display: block;
+    /* background-color: firebrick;
+            border-radius: 10px; */ }
+    .contenedor .padre .hijo .form-block form .form-box {
+      height: fit-content;
+      width: fit-content;
+      margin-top: 15px;
+      margin-left: 15px;
+      padding: 10px;
+      border-radius: 10px;
+      color: #137074;
+      /* background-color: peru; */ }
+      .contenedor .padre .hijo .form-block form .form-box .form-label {
+        font-family: "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Roboto", sans-serif;
+        font-size: large;
+        font-weight: bold; }
+      .contenedor .padre .hijo .form-block form .form-box .form-input {
+        font-family: "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Roboto", sans-serif;
+        color: #212121;
+        border: none;
+        border-bottom: 2px solid #137074;
+        background-color: #d6e4f0;
+        padding: 12px 20px;
+        margin-top: 10px;
+        box-sizing: border-box; }
+      .contenedor .padre .hijo .form-block form .form-box .inp-llenado {
+        background-color: #fff;
+        cursor: pointer; }
+      .contenedor .padre .hijo .form-block form .form-box .inp-llenado:focus {
+        border: 3px solid #fffcca; }
+      .contenedor .padre .hijo .form-block form .form-box .form-text-area {
+        font-family: "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Roboto", sans-serif;
+        color: #212121;
+        border: none;
+        background-color: #d6e4f0;
+        float: left;
+        width: 100%;
+        min-height: 75px;
+        outline: none;
+        resize: none; }
+
+/*------------------fin leo----------------*/
+button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  min-width: 20px;
+  height: auto;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  font-family: 'Roboto';
+  font-size: large;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  overflow: hidden; }
+
+.btn-block {
+  width: 100%; }
+
+.btn-capsule {
+  border-radius: 100px; }
+
+.btn-verde {
+  background: #16be00; }
+
+.btn-verde:hover {
+  background: #108800;
+  font-weight: bold; }
+
+.btn-rojo {
+  background: #ff3333; }
+
+.btn-rojo:hover {
+  background: #bd1212;
+  font-weight: bold; }
+
+.btn-naranja {
+  background: #ffa600; }
+
+.btn-naranja:hover {
+  background: #ff7b00;
+  font-weight: bold; }

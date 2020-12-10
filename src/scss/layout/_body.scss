@@ -1,0 +1,75 @@
+// -----------------------------------------------------------------------------
+// Estilos de contenedores y la tabla
+// -----------------------------------------------------------------------------
+/*******************CUERPO********************/
+.contenedor{
+    .cuerpo{
+        display: block;
+        width: 100%;
+        height: 75%;
+        overflow: scroll;
+        table{
+            border-collapse: collapse;
+            font-family: Arial; //pasar a fonts
+            font-size: 1.2rem; //pasar a variables
+            position: relative;
+            left: 5%;
+            top: 5%;
+            width: 90%;
+            height: auto;
+            .principal{
+                background-color: $azul;
+                height: 10%;
+                color: $gris;
+                .rep{width: 10%;}
+                .fec{width: 15%;}
+                .tip{width: 10%;}
+                .des{width: 50%;}
+                .est{width: 15%;}
+            }
+            .principal:hover{
+                background-color: $azul;
+            }
+            .sobrante{height: 10%;
+                text-align: center;
+            }
+            .sobrante:hover{
+                background-color: $gris;
+            }
+        }
+    }
+}
+
+/*LEO*/
+.padre{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    //justify-content: space-around;
+    .hijo{
+        margin: 30px;
+        padding-bottom: 30px;
+        width: fit-content;
+        height: fit-content;
+        border-radius: 10px;
+        background-color: $gris;
+
+        //horizontal, vertical, suavidad, color
+        @include echale-sombra(10px, 10px, 40px, rgba(117, 117, 117, 0.664));
+        .title{
+            margin-top: 10px;
+            font-family: $fuentes-titulos;
+            color: $cobalto;
+            text-align: center;
+        }
+        .center{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+/*fin LEO*/

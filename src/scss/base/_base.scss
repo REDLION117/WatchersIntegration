@@ -1,0 +1,23 @@
+// -----------------------------------------------------------------------------
+// Para normalizar.
+// -----------------------------------------------------------------------------
+* {
+  //mandando llamar un mixin para normalizar
+  @include primero-lo-primero;
+}
+
+.contenedor {
+  width: $ancho;
+  height: $alto;
+ }
+
+ h1 {
+   font-family: $fuentes-titulos;
+   color: $morado;
+ }
+
+ h2 {
+  font-family: $fuentes-titulos;
+  color: $rosa;
+}
+
