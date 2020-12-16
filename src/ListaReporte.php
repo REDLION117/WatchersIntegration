@@ -2,25 +2,25 @@
 $array = array(
         "reporte1" => array(
                       "fecha" => "01-01-01",
-                      "tipo" => "tipo1",
-                      "descripcion" => "asdfadsfgd",
+                      "tipo" => "agua",
+                      "descripcion" => "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum commodi architecto accusantium fuga impedit fugit assumenda velit hic maiores quam temporibus asperiores iste quas sed, illum laudantium beatae ratione dolore!",
                       "estado" => true
         ),
         "reporte2" => array(
                       "fecha" => "02-02-02",
-                      "tipo" => "tipo2",
+                      "tipo" => "luz",
                       "descripcion" => "descripcion2",
                       "estado" => false
         ),
         "reporte3" => array(
                       "fecha" => "03-03-03",
-                      "tipo" => "tipo3",
+                      "tipo" => "general",
                       "descripcion" => "descripcion3",
                       "estado" => true
         ),
         "reporte4" => array(
                       "fecha" => "04-04-04",
-                      "tipo" => "tipo4",
+                      "tipo" => "general",
                       "descripcion" => "descripcion4",
                       "estado" => false
                       )
@@ -70,8 +70,13 @@ $array = array(
             <!-- <td>Prueba 1</td> -->
             <td><?= $reporte["fecha"] ?></td>
             <td><?= $reporte["tipo"] ?></td>
-            <td><?= $reporte["descripcion"] ?></td>
+            <td class="des"><?= $reporte["descripcion"] ?></td>
             <td><?= $reporte["estado"] ?></td>
+            <td><form action="VistaReporte.php" method="GET">
+                  <input type="hidden" value="<?php $reporte["tipo"]?>">
+                  <button class="btn btn-verde">VER</button>
+                </form>
+            </td>
           </tr>
         <?php endforeach; ?>
       </table>

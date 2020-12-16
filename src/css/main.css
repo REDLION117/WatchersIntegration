@@ -110,6 +110,8 @@ h2 {
     .contenedor .cuerpo table .sobrante {
       height: 10%;
       text-align: center; }
+      .contenedor .cuerpo table .sobrante .des {
+        text-align: justify; }
     .contenedor .cuerpo table .sobrante:hover {
       background-color: #d6e4f0; }
 
@@ -274,3 +276,9 @@ button {
 .btn-naranja:hover {
   background: #ff7b00;
   font-weight: bold; }
+
+/* @import
+  'pages/home'; */
+/* @import
+  'themes/default',
+  'themes/admin'; */

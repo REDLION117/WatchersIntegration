@@ -32,6 +32,9 @@
             }
             .sobrante{height: 10%;
                 text-align: center;
+                .des{
+                    text-align: justify;
+                }
             }
             .sobrante:hover{
                 background-color: $gris;
