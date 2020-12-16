@@ -13,7 +13,7 @@
           </div>
           <div class="formLogin">
             <form class="formLogin1" action="ListaReporte.php" method="post">
-              <input class="int80"type="text" placeholder="Ingrese su Usuario" name="usuario">
+              <input class="int80"type="text" placeholder="Usuario" name="usuario">
               <input class="int80"type="password" placeholder="Contraseña" name="password">
               <input class="int25"type="submit" name="ingresar" value="Ingresar">
             </form>
