@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:root{
+  --azul:#1498D5;
+  --gris:#d6e4f0;
+  --blanco:#fffcca;
+  --text1:#212121;
+}
+.contenedor{
+  width: 100%;
+  height: 100%;
+}
+
+/**********************************************/
+/*********************Login********************/
+/**********************************************/
+
+.contenedorLogin{
+  width: 100%;
+  height: 100%;
+}
+
+.contenedorLogin .fondoLogin{
+  background-image: url(../img/fondoLogin.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.contenedorLogin .fondoLogin .formularioLogin{
+  position: relative;
+  left: 35%;
+  top: 20%;
+  background-color: red;
+  width: 30%;
+  height: 60%;
+}
+
+.contenedorLogin .fondoLogin .formularioLogin .encabezadoLogin{
+  background-color: var(--azul);
+  width: 100%;
+  height: 20%;
+}
+
+.contenedorLogin .fondoLogin .formularioLogin .encabezadoLogin p{
+  position: relative;
+  top: 25%;
+  color: var(--gris);
+  font-family: Arial;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align:center;
+
+}
+
+.contenedorLogin .fondoLogin .formularioLogin .formLogin{
+  display: flex;
+  background-color: var(--gris);
+  width: 100%;
+  height: 80%;
+}
+
+.contenedorLogin .fondoLogin .formularioLogin .formLogin .int80{
+  flex-wrap: wrap;
+  width: 80%;
+  height: 10%;
+  position: relative;
+  left: 7%;
+  top: 15%;
+  margin: 3%;
+}
+
+.contenedorLogin .fondoLogin .formularioLogin .formLogin .int25{
+  flex-wrap: wrap;
+  position: relative;
+  width: 25%;
+  height: 15%;
+  left: 37.5%;
+  top: 30%;
+  background-color: var(--azul);
+  color: var(--gris);
+  font-weight: bold;
+  border: 0;
+  border-radius: 3px;
+}
+
+
+
+/**********************************************/
+/******************Encabezado******************/
+/**********************************************/
+.contenedor .encabezado{
+  display: flex;
+  background-color: var(--gris);
+  width: 100%;
+  height: 25%;
+}
+/******************Logo***********************/
+.contenedor .encabezado .logo{
+  width: 25%;
+  height: 100%;
+}
+
+.contenedor .encabezado .logo .img{
+  position: relative;
+  left: 5%;
+  top:10%;
+}
+
+/*******************User**********************/
+.contenedor .encabezado .info_usuario{
+  display: inline-block;
+  width: 25%;
+  height: 100%;
+}
+
+.contenedor .encabezado .info_usuario p{
+  position: relative;
+  left: 10%;
+  top: 25%;
+  width: 70%;
+  font-family: 'arial';
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--azul);
+}
+
+.contenedor .encabezado .info_usuario .user_name{
+  width: 100%;
+  height: 50%;
+}
+
+.contenedor .encabezado .info_usuario .user_id{
+  width: 100%;
+  height: 50%;
+}
+/*******************menu1********************/
+.contenedor .encabezado .menu1{
+  width: 50%;
+  height: 100%;
+}
+
+.contenedor .encabezado .menu1 nav{
+  position: relative;
+  display: inline-flex;
+  left: 40%;
+  top: 50%;
+  width: 60%;
+  height: 50%;
+}
+
+.contenedor .encabezado .menu1 nav li{
+  list-style: none;
+  position: relative;
+  left: 10%;
+  top: 30%;
+  height: 60%;
+  margin: 0 5% 0 5%;
+}
+
+.contenedor .encabezado .menu1 nav li a{
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'arial';
+  font-size: 1.2rem;
+  color: var(--azul);
+  font-weight: bold;
+}
+/********************************************/
+/******************Cuerpo********************/
+/********************************************/
+
+/*****************Tabla**********************/
+.contenedor .cuerpo{
+  display: block;
+  width: 100%;
+  height: 75%;
+  overflow: scroll;
+}
+
+.contenedor .cuerpo table {
+  border-collapse: collapse;
+  font-family: Arial;
+  font-size: 1.2rem;
+  position: relative;
+  left: 5%;
+  top: 5%;
+  width: 90%;
+  height: auto;
+}
+
+.contenedor .cuerpo table .principal{
+  background-color: var(--azul);
+  height: 10%;
+  color: var(--gris);
+}
+
+.contenedor .cuerpo table .principal:hover{
+  background-color: var(--azul);
+}
+
+.contenedor .cuerpo table .principal .rep{
+  width: 10%;
+}
+
+.contenedor .cuerpo table .principal .fec{
+  width: 15%;
+}
+
+.contenedor .cuerpo table .principal .tip{
+  width: 10%;
+}
+
+.contenedor .cuerpo table .principal .des{
+  width: 50%;
+}
+
+.contenedor .cuerpo table .principal .est{
+ width: 15%;
+}
+
+.contenedor .cuerpo table .sobrante{
+  height: 10%;
+  text-align: center;
+}
+
+.contenedor .cuerpo table .sobrante:hover{
+  background-color: var(--gris);
+}
